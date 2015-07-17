@@ -1,5 +1,5 @@
 FROM gliderlabs/alpine:latest
-RUN apk --update add zsh vim git openssh-client build-base
+RUN apk --update add zsh vim git openssh-client build-base bash
 
 ENV HOME /home
 
